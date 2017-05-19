@@ -27,36 +27,44 @@ const app = new Vue({
 				),
 
 			new Post(
-				'It\'s a Boy!!!!',
+				'Looking for a Fellow Christian Lover?',
 				'https://vuejs.org',
-				'Tangy Calabacín',
-				'http://1.bp.blogspot.com/-KnyIV4Pq7Ew/UHL3b0VRD1I/AAAAAAAAAOo/NbfqAfEfXPE/s1600/32482_396324961295_209118161295_4666700_7835490_n_thumb.jpg',
-				'Cannot wait to be a mamma! @nicky.abate9 #lovemyhubby #dueintwoweeks #orangeontheway #momlife #preggo ##PEPINO'
+				'Christian Mingle Official',
+				'https://static.christianmingle.com/images/logo_facebook.png',
+				'Sign up for our free 30 day trial on Christian Mingle! Just use this promo code: CHRISTLOVE and find us at www.christianmingle.com!'
 				),
 
 			new Post(
-				'My Son\'s Having a Baby!!!',
+				'T',
 				'https://google.com',
-				'Crazy Fredrick',
-				'http://vignette4.wikia.nocookie.net/annoyingorange/images/b/bb/Tangerine.png/revision/latest?cb=20140518161457',
-				'Crazy Fredrick bought many very exquisite opal jewels. Lonsectetur adipiscing elit. Morbi viverra euismod euismod. Nulla leo est, venenatis at fringilla eget, tincidunt sed justo. In efficitur dui odio, sit amet finibus sem hendrerit ut. Etiam vestibulum sem vel metus lobortis, vitae dictum metus sagittis. Nulla facilisi.'
+				'Tim Lincecum',
+				'http://m.mlb.com/assets/images/9/1/8/98434918/cuts/Lincecum_1280_8qa6pl5x_2bjowjfa.jpg',
+				''
 				),
 
 			new Post(
-				'Another Post: Promptly judged',
+				'Amen.',
 				'https://vuejs.org',
-				'Jane Author',
-				'http://vignette1.wikia.nocookie.net/annoyingorange/images/6/62/Lemon_2.png/revision/latest?cb=20140823054015',
-				'We promptly judged antique ivory buckles for the next prize. Adipiscing elit. Morbi viverra euismod euismod. Nulla leo est, venenatis at fringilla eget, tincidunt sed justo. In efficitur dui odio, sit amet finibus sem hendrerit ut. Etiam vestibulum sem vel metus lobortis, vitae dictum metus sagittis. Nulla facilisi.'
+				'Buddy Christ',
+				'http://24.media.tumblr.com/tumblr_m6sl6qZgf81rxfxhbo1_500.jpg',
+				'#sonofgod #themessiah #judahsucks'
 				),
 
 			new Post(
-				'#suckit',
+				'#obsessedwithtimlincecum ;)',
 				'https://google.com',
-				'YACKOB',
-				'http://www.demolitionsquad.de/videogames/pictures/gurke.gif',
-				'MWAHAHAHAHAHAHAHAHAHAHAHAHAh #iactuallytappedthat #mixedbaby #PEPINO '
-				)
+				'Tim Linceum Is Life',
+				'http://l.yimg.com/os/en_us/Sports/ap/201503211833668225649',
+				'check out my website: timlincecum.com for more of our favorite Jesus lookalike!'
+				),
+				
+			new Post(
+				'S',
+				'https://google.com',
+				'Tim Linceum Is Life',
+				'https://sacwaldorf.org/wp-content/uploads/2016/01/Millard-John-1-150x150.jpg',
+				'check out my website: timlincecum.com for more of our favorite Jesus lookalike!'
+				),
 		]
 	},
 	computed: {
