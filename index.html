@@ -4,9 +4,24 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>One Page Awesomer</title>
+	<title>FindYourFriends</title>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<style>
+		.maybeorange{
+			 color: #FEA744
+		} 
+		.maybegreen{
+			color: #44FEC6    
+		}
+		.maybered{
+			color: #B02A2A    
+		}
+		.maybegrey{
+			color: #656F6C  
+			}
+	</style> 
 </head>
 	<body>
 	<div id="root">
@@ -19,7 +34,7 @@
 
 			      <div class="column"> <!-- search column -->
 
-			      	<h3 class="title">Search Titles</h1>
+			      	<h3 class="title maybered">Search Users</h1>
 
 		      		<hr>
 
@@ -30,7 +45,7 @@
 					<br>
 
 					<p>
-						<a class="button is-primary is-outlined" href="../index.html">Home</a>
+						<a class="button is-primary is-outlined" href="../index.html ">Home</a>
 					</p>
 					
 
@@ -38,7 +53,7 @@
 
 		      	<div class="column is-two-thirds"> <!-- post column -->
 
-		      		<h3 class="title">Posts</h1>
+		      		<h3 class="title maybeorange">Posts</h1>
 		      		<hr>
 
 						<div v-for="post in filterlist">
@@ -59,9 +74,9 @@
 
 								<div class="media-content">
 
-						      		<div class="content">
+						      		<div class="content maybegrey">
 
-						      			<a :href="post.link">{{post.title}}</a>
+						      			<a :href="post.link ">{{post.title}}</a>
 
 						      			<p><em>by {{post.author}}</em></p>
 
@@ -74,13 +89,13 @@
 								        <div class="level-left">
 
 							          		<a class="level-item">
-							            		<span class="icon is-small"><i class="fa fa-reply"></i></span>
+							            		<span class="icon is-small maybeorange"><i class="fa fa-reply"></i></span>
 						          			</a>
 							          		<a class="level-item">
-								            	<span class="icon is-small"><i class="fa fa-retweet"></i></span>
+								            	<span class="icon is-small maybegreen"><i class="fa fa-retweet"></i></span>
 							          		</a>
 							          		<a class="level-item">
-								            	<span class="icon is-small"><i class="fa fa-heart"></i></span>
+								            	<span class="icon is-small maybered"><i class="fa fa-heart"></i></span>
 							          		</a>
 
 								        </div> <!-- end level-left -->
@@ -111,11 +126,11 @@
 		<div class="container">
 			<div class="content has-text-centered">
 				<p>
-					<strong>Footer</strong> which means this is the bottom of the page.
+					<strong></strong>
 				</p>
 				<p>
 					<a class="icon" href="#">
-					  <i class="fa fa-diamond"></i>
+					  <i class="fa fa-diamond maybegreen"></i>
 					</a>
 				</p>
 			</div>
