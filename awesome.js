@@ -22,8 +22,8 @@ const app = new Vue({
 				'It\'s a Boy!!!!',
 				'https://google.com',
 				'Nicky Abate',
-				'http://b.vimeocdn.com/ps/954/954244_300.jpg',
-				 'I am so happy to announce that I will be a father in two weeks!!! @tangy_calabacin00 #soexcited #gonnabeadad #lovebeingorange #tappedthat #sojuicy #PEPINO ' 
+				'https://tv-fanatic-res.cloudinary.com/iu/s--1m2aehzt--/c_thumb,f_auto,g_auto,h_344,q_auto,w_229/v1371218985/archer-rampage',
+				 'I am so happy to announce that I will be a father in two weeks!!! @tangy_calabacin00 #soexcited #gonnabeadad #lovebeingorange #PEPINO ' 
 				),
 
 			new Post(
@@ -38,7 +38,7 @@ const app = new Vue({
 				'Bless you',
 				'https://google.com',
 				'violin4lyfe',
-				'https://sacwaldorf.org/wp-content/uploads/2016/01/Sutter-Nathan-150x150.jpg',
+				'https://1.bp.blogspot.com/-JicFYQ_WAEc/TdkenYu4W_I/AAAAAAAAAN4/dTBlxx8sOlY/s1600/187.JPG',
 				'Bless you all, my brothers and sisters.'
 				),
 
@@ -62,7 +62,7 @@ const app = new Vue({
 				'Just joined a vampire dating site!!',
 				'https://www.vampiredatingsite.com',
 				'PhysicsVamp',
-				'https://sacwaldorf.org/wp-content/uploads/2016/01/Millard-John-1-150x150.jpg',
+				'https://s-media-cache-ak0.pinimg.com/originals/78/6f/77/786f779f0fa90f2408c05e0f16e7bfe4.gif',
 				'Looking for bloodthirsty singles in my area!'
 				),
 		]
